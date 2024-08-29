@@ -1,0 +1,63 @@
+body {
+    background-color: #8B6C89;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#todo-container {
+    text-align: center;
+    background-color: #D9A5B3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#add-task-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8B6C89;
+    color: white;
+    cursor: pointer;
+}
+
+#tasks {
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #F2D7D9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #E57373;
+    color: white;
+}
+
+.check-btn {
+    background-color: #81C784;
+    color: white;
+}
